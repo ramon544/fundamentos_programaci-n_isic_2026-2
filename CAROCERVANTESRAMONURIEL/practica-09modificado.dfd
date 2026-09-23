@@ -1,0 +1,79 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+8
+1
+1
+i
+1
+1
+1
+1
+1
+3
+1
+1
+1
+4
+1
+31
+'Ingrese la temperatura actual'
+5
+1
+14
+temperatura(i)
+4
+1
+27
+'Ingrese la humedad actual'
+5
+1
+10
+humedad(i)
+6
+2
+9
+tempOk(i)
+41
+temperatura(i)>=18 AND temperatura(i)<=24
+12
+humedadOk(i)
+33
+humedad(i)>=40 AND humedad(i)<=60
+6
+2
+21
+operacionNormativa(i)
+26
+tempOk(i) AND humedadOk(i)
+15
+alertaRiesgo(i)
+35
+temperatura(i)>24 AND humedad(i)>60
+10
+4
+1
+111
+'El estado actual es:' , 'operacion normativa:' , operacionNormativa(i) , 'alerta de riesgo:' , alertaRiesgo(i)
+8
+1
+1
+i
+1
+1
+1
+1
+1
+3
+1
+1
+1
+4
+1
+160
+'HISTORIAL DE REGISTRO'  ,  i, ' | Temp: ', temperatura(i), ' °C | Hum: ', humedad(i), ' % | Normativa: ', operacionNormativa(i), ' | Riesgo: ', alertaRiesgo(i)
+10
+1
